@@ -5,7 +5,7 @@ library(ggplot2)
 library(dplyr)
 
 # Load data
-df <- read_excel("C:/Users/Admin/Documents/Thesis/Jhonson Neyman/data.xlsx")
+df <- read_excel("data.xlsx")
 df <- as.data.frame(df)
 
 # Create composite variable
