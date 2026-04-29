@@ -2,7 +2,7 @@ library(mice)
 library(naniar)
 library(readxl)
 
-data <- read_xlsx("C:/Users/Admin/Documents/Thesis/Jhonson Neyman/TrAAIT Questionnaire (English) (Responses).xlsx")
+data <- read_xlsx("data.xlsx")
 data_clean <- data[sapply(data, is.numeric)]
 
 md.pattern(data_clean)
